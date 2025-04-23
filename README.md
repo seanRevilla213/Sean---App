@@ -1,2 +1,3 @@
-# Sean---App
+# Sean - App
+
 Crush - App
