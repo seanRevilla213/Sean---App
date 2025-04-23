@@ -3,7 +3,7 @@
 Crush - App
 
 
-Information about this website if you want to see this website you can visit the link  below if you want to see it 
+Information about this website if you want to see this website you can visit the link  below if you want to see it and I Create it for my Personal Needs.
 
 
 
