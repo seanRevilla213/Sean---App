@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <audio controls loop autoplay style="position: absolute; top: 10px; left: 10px;">
+        <source src="Makasariling - Lambing2.mp3" type="audio/mp4">
+    </audio>
+    </head>
+    <body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="hearticon.png" type="image/x-icon"/>
+    <title>Choose Your Location Crush 😘</title>
+    <style>
+
+
+        body {
+            background-image: url("background2.gif");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            height: 100vh;
+            margin: 20px;
+        }
+
+        :link, a:visited {
+         background-color: #f44336;
+         color: white;
+         padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+
+        a:hover, a:active {
+        background-color: purple;
+        }
+    
+        input {
+        display: block;
+        width: 15vw;
+        padding: 0 5rem;
+        }
+
+        input,
+        input::placeholder {
+        color: #333;
+       font: 1.25rem  /3 sans-serif;
+        }
+
+
+        .location {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+        .location img {
+            width: 200px;
+            height: 150px;
+            border-radius: 30px;
+        }
+        .location button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .location button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+    </div>
+<body>
+    <h1>Choose Your Location</h1>
+    <div class="location">
+        <img src="intramuros.jpg" alt="Location 1">
+        <p>Intramuros</p>
+        <button onclick="chooseLocation('Location 1')"onclick="confirmLocation('Intramuros')">Choose</button>
+    </div>
+    <div class="location">
+        <img src="ugbofoodhub.jpg" alt="Location 2">
+        <p>Ugbo Street Food Shops and Takeaways</p>
+        <button onclick="chooseLocation('Location 2')"onclick="confirmLocation('Ugbo Street Food Shops and Takeaways')">Choose</button>
+    </div>
+    <div class="location">
+        <img src="SMCM.jpg" alt="Location 3">
+        <p>SM City Manila</p>
+        <button onclick="chooseLocation('Location 3')"onclick="confirmLocation('SM City Manila')">Choose</button>
+    
+
+<script>
+    function chooseLocation(location) {
+        if (confirm(`Are you sure you want to choose ${location}?`)) {
+            if (confirm(`Are you Sure Crush to pick this? ${location}?`)) {
+                alert(`Nice take and Good Picking Crush ❤️‍🔥 ${location}!`);
+                window.location.href = "index3.html";
+            } else {
+                alert('Action canceled. You remain on the current page.');
+            }
+        }
+    }
+</script>
+
+    </script>
+</body>
+</html>

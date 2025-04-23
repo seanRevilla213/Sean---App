@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="hearticon.png" type="image/x-icon"/>
+    <title>Hi Crush ❤️‍🔥</title>
+</head>
+<body>
+    
+<style>
+ :link, a:visited {
+  background-color: lightslategray;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: lightslategray;
+}
+     body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('background.gif'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            margin: 0;
+        }
+
+
+
+    input {
+    display: block;
+    width: 15vw;
+    padding: 0 5rem;
+}
+
+   input,
+   input::placeholder {
+    color: #333;
+    font: 1.25rem  /3 sans-serif;
+    }
+
+        
+        .envelope {
+            background-color: #ffebee;
+            border: 2px solid #ffcdd2;
+            border-radius: 10px;
+            width: 400px;
+            padding: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            text-align: center;
+        }
+        .envelope:before {
+            content: "";
+            position: absolute;
+            top: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 20px solid #ffcdd2;
+        }
+        h1 {
+            color: #e91e63;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .heart {
+            color: lightslategray;
+            font-size: 24px;
+            margin: 10px 0;
+        }
+        .signature {
+            font-style: italic;
+            margin-top: 20px;
+            color: #e91e63;
+        }
+        .button {
+            background-color: purple;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 15px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: purple;
+        }
+    </style>
+</head>
+
+    <div class="envelope">
+        <h1>💌 For You 💌</h1>
+        <p>Hi Crush 🥰</p>
+        <p>I’ve been so long to think about this so i take the chance and i'll take the risk for the rest of your life. 😊</p>
+        <p><strong>Would you like to go out with me? 😊</strong></p>
+        <p>Maybe for coffee, dinner, or just a walk I just want to spend time with you like you know. 😊</p>
+        <div class="heart">❤️</div>
+        <p><strong>When?</strong> [Date & Time]</p>
+        <p><strong>Where?</strong> [Location] (or let me surprise you!)</p>
+        <p>No pressure—just say yes? 😊</p>
+        <p class="signature">—————— [Time] ——————</p>
+        <p class="signature">———— [Your Name] ————</p>
+        <p class="signature">————— [Location] ———</p>
+        <form>
+            
+            <label for="name">Name:</label>
+            <input type="time" id="time" time="time" placeholder="Enter Time" required>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <input type="Location" id="Location" Location="Location" placeholder="Enter Location" placeholder="Location">
+            <button class="button" style="height: 50%; width: 50%;" type="button" onclick="linkedirect()" onclick="confirmRedirect()"> Click if you say YES!</button>
+            
+          </form>
+          <script>
+            function linkedirect() {
+                if (confirm("PLay The audio First and listen before to prooceed ☺️❤️‍🔥")) {
+                    alert("Are you done toListening Crush ☺️❤️‍🔥");
+                    alert("Thank you for the Listen Crush ☺️❤️‍🔥");
+                    window.location.href = 'index2.html';
+                } else {
+                    alert("No worries! Take your time. 😊");
+                }
+            }
+          </script>
+    </div>
+
+    <audio controls loop autoplay style="position: absolute; top: 10px; right: 10px;">
+        <source src="Makasariling - Lambing.mp3" type="audio/mp4">
+    </audio>
+
+
+
+</body>
+</html>
